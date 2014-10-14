@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let factsArray = ["Fact 1", "Fact 2"]
+
+    @IBOutlet weak var newFactLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        newFactLabel.text = factsArray[0]
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +26,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showNewFact() {
+        newFactLabel.text = factsArray[1]
+    }
 
 }
 
