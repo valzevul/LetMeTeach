@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820D7BDD19EDAF7E00B8F18D /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7BDC19EDAF7E00B8F18D /* FactBook.swift */; };
 		82B4EC9619ED3FFC008F8FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B4EC9519ED3FFC008F8FAD /* AppDelegate.swift */; };
 		82B4EC9819ED3FFC008F8FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B4EC9719ED3FFC008F8FAD /* ViewController.swift */; };
 		82B4EC9B19ED3FFC008F8FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B4EC9919ED3FFC008F8FAD /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820D7BDC19EDAF7E00B8F18D /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		82B4EC9019ED3FFC008F8FAD /* LetMeTeach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetMeTeach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B4EC9419ED3FFC008F8FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82B4EC9519ED3FFC008F8FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				82B4EC9519ED3FFC008F8FAD /* AppDelegate.swift */,
 				82B4EC9719ED3FFC008F8FAD /* ViewController.swift */,
+				820D7BDC19EDAF7E00B8F18D /* FactBook.swift */,
 				82B4EC9919ED3FFC008F8FAD /* Main.storyboard */,
 				82B4EC9C19ED3FFC008F8FAD /* Images.xcassets */,
 				82B4EC9E19ED3FFC008F8FAD /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820D7BDD19EDAF7E00B8F18D /* FactBook.swift in Sources */,
 				82B4EC9819ED3FFC008F8FAD /* ViewController.swift in Sources */,
 				82B4EC9619ED3FFC008F8FAD /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				82B4ECB119ED3FFC008F8FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82B4ECB219ED3FFC008F8FAD /* Build configuration list for PBXNativeTarget "LetMeTeachTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				82B4ECB419ED3FFC008F8FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

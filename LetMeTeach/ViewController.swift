@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let factsArray = ["Fact 1", "Fact 2"]
+    let factBook = FactBook()
 
     @IBOutlet weak var newFactLabel: UILabel!
 
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        newFactLabel.text = factsArray[0]
+        newFactLabel.text = factBook.factsArray[0]
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showNewFact() {
-        newFactLabel.text = factsArray[1]
+        newFactLabel.text = factBook.factsArray[1]
     }
 
 }
