@@ -10,4 +10,10 @@ import Foundation
 
 struct FactBook {
     let factsArray = ["Fact 1", "Fact 2", "Fact 3"]
+    
+    func randomFact() -> String {
+        var randomInt = Int(arc4random_uniform(UInt32(factsArray.count)))
+        
+        return factsArray[randomInt]
+    }
 }
