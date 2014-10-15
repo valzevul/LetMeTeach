@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		820D7BDD19EDAF7E00B8F18D /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7BDC19EDAF7E00B8F18D /* FactBook.swift */; };
+		820D7BDF19EE5A1400B8F18D /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D7BDE19EE5A1400B8F18D /* ColorWheel.swift */; };
 		82B4EC9619ED3FFC008F8FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B4EC9519ED3FFC008F8FAD /* AppDelegate.swift */; };
 		82B4EC9819ED3FFC008F8FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B4EC9719ED3FFC008F8FAD /* ViewController.swift */; };
 		82B4EC9B19ED3FFC008F8FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B4EC9919ED3FFC008F8FAD /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		820D7BDC19EDAF7E00B8F18D /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		820D7BDE19EE5A1400B8F18D /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 		82B4EC9019ED3FFC008F8FAD /* LetMeTeach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetMeTeach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B4EC9419ED3FFC008F8FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82B4EC9519ED3FFC008F8FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				82B4EC9C19ED3FFC008F8FAD /* Images.xcassets */,
 				82B4EC9E19ED3FFC008F8FAD /* LaunchScreen.xib */,
 				82B4EC9319ED3FFC008F8FAD /* Supporting Files */,
+				820D7BDE19EE5A1400B8F18D /* ColorWheel.swift */,
 			);
 			path = LetMeTeach;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				820D7BDD19EDAF7E00B8F18D /* FactBook.swift in Sources */,
 				82B4EC9819ED3FFC008F8FAD /* ViewController.swift in Sources */,
 				82B4EC9619ED3FFC008F8FAD /* AppDelegate.swift in Sources */,
+				820D7BDF19EE5A1400B8F18D /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
