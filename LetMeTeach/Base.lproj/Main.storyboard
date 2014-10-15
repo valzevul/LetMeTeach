@@ -64,6 +64,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="newFactButton" destination="6Kw-YC-v7R" id="4Nr-s5-cXm"/>
                         <outlet property="newFactLabel" destination="xLu-ZN-BHC" id="Jnj-cy-7zj"/>
                     </connections>
                 </viewController>
