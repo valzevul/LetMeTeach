@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="lq4-gA-UIi">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -33,7 +33,7 @@
                                     <action selector="showNewFact" destination="vXZ-lx-hvc" eventType="touchUpInside" id="g9c-vK-FSp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xz-j6-opI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Did you know?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xz-j6-opI">
                                 <rect key="frame" x="52" y="60" width="116" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="116" id="C6T-a5-JmC"/>
@@ -43,7 +43,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here… An interesting fact goes here… An interesting fact goes here… An interesting fact goes here…" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLu-ZN-BHC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="An interesting fact goes here… An interesting fact goes here… An interesting fact goes here… An interesting fact goes here…" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLu-ZN-BHC">
                                 <rect key="frame" x="52" y="118" width="216" height="133"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="216" id="GWW-cd-2dl"/>
@@ -52,6 +52,16 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gie-oZ-bD3">
+                                <rect key="frame" x="258" y="530" width="46" height="30"/>
+                                <state key="normal" title="Info">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showInfo" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eaG-cg-BVR"/>
+                                    <segue destination="bbb-Fz-Jlt" kind="push" id="JFi-6T-GaX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -63,7 +73,9 @@
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="6Kw-YC-v7R" secondAttribute="bottom" constant="59" id="oYW-NK-WRS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Xt3-vb-BJ0"/>
                     <connections>
+                        <outlet property="infoButton" destination="Gie-oZ-bD3" id="l1E-3o-VBT"/>
                         <outlet property="newFactButton" destination="6Kw-YC-v7R" id="4Nr-s5-cXm"/>
                         <outlet property="newFactLabel" destination="xLu-ZN-BHC" id="Jnj-cy-7zj"/>
                     </connections>
@@ -71,6 +83,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="234" y="362"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="t2k-O4-axO">
+            <objects>
+                <viewController id="bbb-Fz-Jlt" customClass="InfoViewController" customModule="LetMeTeach" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q2l-jK-DTd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yjt-cH-1oh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cYQ-ld-Lcd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AKp-ZN-Ckv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XdW-Ex-SlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="362"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jmw-nd-z53">
+            <objects>
+                <navigationController id="lq4-gA-UIi" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uij-me-LzA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="ZBv-hK-mIC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ju-dW-4qR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-186" y="362"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

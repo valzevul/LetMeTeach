@@ -15,6 +15,7 @@
 		82B4EC9D19ED3FFC008F8FAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B4EC9C19ED3FFC008F8FAD /* Images.xcassets */; };
 		82B4ECA019ED3FFC008F8FAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82B4EC9E19ED3FFC008F8FAD /* LaunchScreen.xib */; };
 		82B4ECAC19ED3FFC008F8FAD /* LetMeTeachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B4ECAB19ED3FFC008F8FAD /* LetMeTeachTests.swift */; };
+		82D068A719F2F67200FC1BB8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D068A619F2F67200FC1BB8 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		82B4ECA519ED3FFC008F8FAD /* LetMeTeachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetMeTeachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B4ECAA19ED3FFC008F8FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82B4ECAB19ED3FFC008F8FAD /* LetMeTeachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetMeTeachTests.swift; sourceTree = "<group>"; };
+		82D068A619F2F67200FC1BB8 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				82B4EC9519ED3FFC008F8FAD /* AppDelegate.swift */,
 				82B4EC9719ED3FFC008F8FAD /* ViewController.swift */,
+				82D068A619F2F67200FC1BB8 /* InfoViewController.swift */,
 				820D7BDC19EDAF7E00B8F18D /* FactBook.swift */,
 				82B4EC9919ED3FFC008F8FAD /* Main.storyboard */,
 				82B4EC9C19ED3FFC008F8FAD /* Images.xcassets */,
@@ -222,6 +225,7 @@
 				82B4EC9819ED3FFC008F8FAD /* ViewController.swift in Sources */,
 				82B4EC9619ED3FFC008F8FAD /* AppDelegate.swift in Sources */,
 				820D7BDF19EE5A1400B8F18D /* ColorWheel.swift in Sources */,
+				82D068A719F2F67200FC1BB8 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,11 +15,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var newFactLabel: UILabel!
     @IBOutlet weak var newFactButton: UIButton!
+    @IBOutlet weak var infoButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        navigationController?.setNavigationBarHidden(true, animated: true)
         newFactLabel.text = factBook.randomFact()
     }
 
@@ -34,5 +35,12 @@ class ViewController: UIViewController {
         newFactLabel.text = factBook.randomFact()
     }
 
+    @IBAction func showInfo() {
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        navigationController?.setNavigationBarHidden(false, animated: true)
+    }
+    
 }
 
