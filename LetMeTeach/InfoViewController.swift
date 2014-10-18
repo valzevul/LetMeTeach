@@ -26,9 +26,8 @@ class InfoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewDidDisappear(animated: Bool) {
-        navigationController?.setNavigationBarHidden(true, animated: true)
+    override func viewWillDisappear(animated: Bool) {
+        navigationController?.navigationBarHidden = true
     }
-    
 }
 
