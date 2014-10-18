@@ -84,7 +84,7 @@
             </objects>
             <point key="canvasLocation" x="234" y="362"/>
         </scene>
-        <!--Info View Controller-->
+        <!--Info-->
         <scene sceneID="t2k-O4-axO">
             <objects>
                 <viewController id="bbb-Fz-Jlt" customClass="InfoViewController" customModule="LetMeTeach" customModuleProvider="target" sceneMemberID="viewController">
@@ -95,9 +95,21 @@
                     <view key="view" contentMode="scaleToFill" id="cYQ-ld-Lcd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="LetMeTeach: An educational app written in Swift for the iOS platform: the best way to kill your time." translatesAutoresizingMaskIntoConstraints="NO" id="Gty-mo-gUr">
+                                <rect key="frame" x="0.0" y="-8" width="320" height="576"/>
+                                <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AKp-ZN-Ckv"/>
+                    <navigationItem key="navigationItem" title="Info" id="AKp-ZN-Ckv"/>
+                    <connections>
+                        <outlet property="textField" destination="Gty-mo-gUr" id="bG9-ag-J2P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XdW-Ex-SlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

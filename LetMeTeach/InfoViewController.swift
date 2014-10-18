@@ -8,10 +8,17 @@
 
 import UIKit
 
+
+let colorWheel = Colorwheel()
+
 class InfoViewController: UIViewController {
+    @IBOutlet weak var textField: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        textField.backgroundColor = colorWheel.randomColor()
+
     }
     
     override func didReceiveMemoryWarning() {
