@@ -9,13 +9,11 @@
 import Foundation
 
 struct FactBook {
-    let factsArray = ["It is impossible to lick your elbow (busted)",
-        "A crocodile can't stick it's tongue out.",
+    let factsArray = ["A crocodile can't stick it's tongue out.",
         "A shrimp's heart is in it's head.",
         "People say \"Bless you\" when you sneeze because when you sneeze,your heart stops for a mili-second.",
         "In a study of 200,000 ostriches over a period of 80 years, no one reported a single case where an ostrich buried its head in the sand.",
         "It is physically impossible for pigs to look up into the sky.",
-        "A pregnant goldfish is called a twit. (busted?)",
         "More than 50% of the people in the world have never made or received a telephone call.",
         "Rats and horses can't vomit.",
         "If you sneeze too hard, you can fracture a rib.",
@@ -122,7 +120,6 @@ struct FactBook {
         "During the chariot scene in 'Ben Hur' a small red car can be seen in the distance.",
         "Warren Beatty and Shirley MacLaine are brother and sister.",
         "Orcas (killer whales) kill sharks by torpedoing up into the shark's stomach from underneath, causing the shark to explode.",
-        "(removed, duplicated)",
         "Donald Duck comics were banned from Finland because he doesn't wear any pants.",
         "Ketchup was sold in the 1830s as medicine.",
         "Upper and lower case letters are named 'upper' and 'lower' because in the time when all original print had to be set in individual letters, the 'upper case' letters were stored in the case on top of the case that stored the smaller, 'lower case' letters.",
