@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     let factBook = FactBook()
     let colorWheel = Colorwheel()
 
-    @IBOutlet weak var newFactLabel: UILabel!
+
+    @IBOutlet weak var newFactLabel: UITextView!
     @IBOutlet weak var newFactButton: UIButton!
     @IBOutlet weak var infoButton: UIButton!
 
@@ -33,6 +34,7 @@ class ViewController: UIViewController {
         view.backgroundColor = colorWheel.randomColor()
         newFactButton.tintColor = view.backgroundColor
         newFactLabel.text = factBook.randomFact()
+        newFactLabel.backgroundColor = view.backgroundColor
     }
 
     @IBAction func showInfo() {
