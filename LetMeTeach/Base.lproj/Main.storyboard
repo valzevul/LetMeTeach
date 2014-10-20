@@ -35,10 +35,6 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xz-j6-opI">
                                 <rect key="frame" x="52" y="60" width="116" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="116" id="C6T-a5-JmC"/>
-                                    <constraint firstAttribute="height" constant="22" id="hsL-ya-4ry"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -70,12 +66,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="6Kw-YC-v7R" firstAttribute="top" secondItem="oNf-c6-lAg" secondAttribute="bottom" constant="31" id="Cib-JV-G6B"/>
                             <constraint firstItem="6Kw-YC-v7R" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="86" id="DpF-yP-YTx"/>
                             <constraint firstItem="oNf-c6-lAg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="32" id="HNj-p6-XBc"/>
-                            <constraint firstItem="7Xz-j6-opI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="LJh-tO-4Rl"/>
-                            <constraint firstItem="7Xz-j6-opI" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-4" id="XiR-0R-33C"/>
-                            <constraint firstItem="oNf-c6-lAg" firstAttribute="top" secondItem="7Xz-j6-opI" secondAttribute="bottom" constant="28" id="eed-1h-gEl"/>
+                            <constraint firstItem="oNf-c6-lAg" firstAttribute="top" secondItem="7Xz-j6-opI" secondAttribute="bottom" constant="28" id="Xdu-ZV-U0t"/>
+                            <constraint firstItem="7Xz-j6-opI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="ckX-oB-b5r"/>
                             <constraint firstAttribute="centerY" secondItem="oNf-c6-lAg" secondAttribute="centerY" constant="20.5" id="j70-pc-iD4"/>
+                            <constraint firstItem="7Xz-j6-opI" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="nUJ-N4-QIW"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="6Kw-YC-v7R" secondAttribute="bottom" constant="59" id="oYW-NK-WRS"/>
                         </constraints>
                     </view>
@@ -88,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="217" y="39"/>
+            <point key="canvasLocation" x="217" y="-80"/>
         </scene>
         <!--Info-->
         <scene sceneID="t2k-O4-axO">
