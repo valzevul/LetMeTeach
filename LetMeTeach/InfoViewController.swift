@@ -21,10 +21,6 @@ class InfoViewController: UIViewController {
 
     }
     
-    override func viewWillDisappear(animated: Bool) {
-        navigationController?.navigationBarHidden = true
-    }
-    
     @IBAction func closeButtonAction(sender: UIBarButtonItem) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }

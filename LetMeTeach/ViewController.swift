@@ -25,11 +25,6 @@ class ViewController: UIViewController {
         newFactLabel.text = factBook.randomFact()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @IBAction func showNewFact() {
         view.backgroundColor = colorWheel.randomColor()
         newFactButton.tintColor = view.backgroundColor
@@ -38,10 +33,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showInfo() {
-    }
-    
-    override func viewDidDisappear(animated: Bool) {
-        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
 }
