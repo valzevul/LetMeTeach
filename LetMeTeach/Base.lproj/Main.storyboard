@@ -119,7 +119,7 @@ Press button to learn a new interesting fact.</string>
                         <color key="backgroundColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="AKp-ZN-Ckv">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="ZEK-jY-1hy">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ZEK-jY-1hy">
                             <connections>
                                 <action selector="closeButtonAction:" destination="bbb-Fz-Jlt" id="qZk-cc-cez"/>
                             </connections>
